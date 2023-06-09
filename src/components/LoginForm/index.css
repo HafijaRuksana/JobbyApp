@@ -1,0 +1,46 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #202020;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  padding: 20px;
+  width: 40%;
+  border-radius: 12px;
+}
+.website-logo {
+  width: 100px;
+  align-self: center;
+  margin: 35px;
+}
+.username-label {
+  color: #f8fafc;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.user-details-input {
+  border: none;
+  outline: none;
+  height: 27px;
+  margin-bottom: 10px;
+}
+.login-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #4f46e5;
+  height: 30px;
+  border-radius: 7px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.error-message {
+  color: #ff0b37;
+}

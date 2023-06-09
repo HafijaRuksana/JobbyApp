@@ -1,0 +1,24 @@
+.filter-and-jobs-list-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #000000;
+}
+.profile-and-filters-group {
+  display: flex;
+  flex-direction: column;
+}
+.no-jobs-heading {
+  color: #ffffff;
+  text-align: center;
+}
+.no-jobs-desc {
+  color: #ffffff;
+  text-align: center;
+}
+.search-input-content {
+  display: flex;
+}
+.no-jobs-container {
+  display: flex;
+  flex-direction: column;
+}
